@@ -1,0 +1,15 @@
+.card-body{
+    background-color: rgb(234, 236, 203);
+    font-family: cursive;
+    font-style: italic;
+    font-variant: small-caps;
+}
+ 
+.container{
+    margin-top: 50px;
+}
+
+body{
+ background-image: url(image/12323.jpg);  
+ background-size: unset ;
+}
