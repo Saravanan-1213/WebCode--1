@@ -14,8 +14,8 @@ res.then((data)=>data.json()).then((data1)=>foo(data1));
 async function foo(data1){
   try {
     for(var i=0;i<=data1.length;i++){
-      row.innerHTML+=`<div class="col-md-4">
-      <div class="card border-warning mb-3" style="max-width: 18rem;">
+      row.innerHTML+=`<div class="col-md-3">
+      <div class="card border-warning mb-4" style="max-width: 18rem;">
       <div class="card-body">
       <h5 class="card-title">Name:${data1[i].name}</h5>
       <h5 class="card-title">Type:${data1[i].brewery_type}</h5>
